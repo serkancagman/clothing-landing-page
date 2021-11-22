@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto&family=Source+Sans+Pro:wght@600&display=swap');
+.navbar-brand{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    background-image: url(./images/section-background.jfif);
+    background-size: cover;
+}
+
+
+/* HEADER */ 
+.navbar-nav{
+    flex-direction: row !important;
+}
+.main-nav::before{
+    content: "";
+    display: block;
+    height: 40px;
+}
+#searchArea{
+    outline: none;
+    border: 0;
+    border-bottom: 2px solid rgb(196, 196, 196);
+    width: 300px;
+    height: 30px;
+    padding-left: 30px;
+    padding-right: 10px;
+    background-image: url(/src/images/search-icon.png);
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-position: 5px center;
+    background-color: transparent;
+    transition: all .2s linear;
+}
+#searchArea:focus{
+    border-bottom: 2px solid #000;
+    transition: all .2s linear;
+}
+
+.nav-item .nav-link{
+    border-bottom: 2px solid transparent;
+    transition: all .3s linear;
+}
+.nav-item .nav-link:hover{
+    border-bottom: 2px solid #000;
+}
+.menu-right a{
+    text-decoration: none;
+    transition: all .3s linear;
+}
+.menu-right a:nth-child(1):hover{
+    color: #25D366 !important;
+}
+.menu-right a:nth-child(2):hover{
+    color:  #df4578 !important;
+}
+
+/* HeroSection */
+#gender-section{
+    padding-top: 20px;
+}
+.gender-menu{
+    align-items: center;
+}
+.gender .img-area{
+    position: relative;
+}
+.img-area:hover .hov-opa{
+    width: 100%;
+    height: 100%;
+}
+.hov-opa{
+    transition: all .3s linear;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 0px;
+    height: 0px;
+    background-color: rgba(236, 236, 236, 0.527);
+    opacity: .4;
+}
+.gender-header{
+    width: initial;
+    cursor: pointer;
+    font-size: 35px;
+}
+.woman{
+    align-items: flex-end !important;
+}
+.man{
+    align-items: flex-start !important;
+}
+.inline-menu{
+    transition: all .4s linear;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.inline-menu a{
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 2px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .3s linear;
+    text-align: center;
+}
+.inline-menu a:hover{
+    border-bottom: 2px solid #000;
+}
+.go-detail{
+    margin-top: auto;
+    background-color: #000;
+    color: #fff;
+    border: 2px solid transparent;
+    font-weight: 550;
+    transition: all .4s linear;
+}
+.go-detail:hover{
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+    color: #000;
+    border: 2px solid #000;
+    margin-bottom: 0 !important;
+}
+.product-box{
+    height: 430px !important;
+    display: flex;
+    flex-direction: column;
+}
+.product-info{
+    padding: 2px;
+    height: 60px;
+}
+.product-img{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+.product-img img{
+    width: 100%;
+    height: 302px;
+    object-fit: cover;
+}
+.product-img:hover .size-area{
+    left: 5px !important;
+}
+.product-img:hover .color-area{
+    bottom: 5px !important;
+}
+.size-area{
+    transition: all .3s linear;
+    position: absolute;
+    top: 5px;
+    left: -25px;
+}
+.season-header{
+    border-bottom: 2px solid #000;
+    width: 400px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.flex-wrap{
+    flex-wrap: wrap !important;
+}
+.size-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.size-box{
+    cursor: pointer;
+    background-color: rgb(226, 226, 226);
+    border: 1px solid rgb(180, 180, 180);
+    width: 20px;
+    text-align: center;
+    margin: 5px;
+    height: 23px;
+    font-size: 13px;
+    vertical-align: 4px;
+}
+.color-area{
+    transition: all .3s linear;
+    position: absolute;
+    bottom: -20px;
+    right: 5px;
+}
+.color-flex{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.color-box{
+    width: 18px;
+    height: 18px;
+    border: 3px solid rgb(228, 228, 228);
+    border-radius: 50%;
+    margin: 2px;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+.color-box:hover{
+    transform: scale(1.15);
+}
+.red{
+    background-color: red;
+}
+.white{
+    background-color: #fff;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.orange{
+    background-color: orange;
+}
