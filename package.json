@@ -1,6 +1,6 @@
 {
   "name": "wholesale",
-  "homepage":"https://github.com/serkancagman/using-data-with-axios.git",
+  "homepage":".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
