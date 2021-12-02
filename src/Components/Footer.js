@@ -20,7 +20,7 @@ export default function Footer() {
             <ul className="footer-list">
               <li className="footer-item">
                 <a
-                  href=""
+                  href="/"
                   className="footer-link fs-4 text-light text-decoration-none"
                 >
                   Moncler
@@ -28,7 +28,7 @@ export default function Footer() {
               </li>
               <li className="footer-item">
                 <a
-                  href=""
+                  href="/"
                   className="footer-link fs-4 text-light text-decoration-none"
                 >
                   The North Face
@@ -36,7 +36,7 @@ export default function Footer() {
               </li>
               <li className="footer-item">
                 <a
-                  href=""
+                  href="/"
                   className="footer-link fs-4 text-light text-decoration-none"
                 >
                   Louis Vuitton
@@ -44,7 +44,7 @@ export default function Footer() {
               </li>
               <li className="footer-item">
                 <a
-                  href=""
+                  href="/"
                   className="footer-link fs-4 text-light text-decoration-none"
                 >
                   Gucci
