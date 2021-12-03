@@ -7,11 +7,12 @@ export default function Footer() {
       <div className="container">
         <div className="row justfiy-content-center ">
           <div className="col-md-4 ">
-          <div className="footer-brand d-flex align-items-center justify-content-center h-100 w-100">
+          <div className="footer-brand d-flex flex-column align-items-center  h-100 w-100">
           <a href="/" className="navbar-brand-footer text-decoration-none fs-1 text-light">
           {" "}
           Torino Whole Sale
         </a>
+        <p className="text-muted">loremipsumloremipsumloremipsum</p>
           </div>
 
           </div>

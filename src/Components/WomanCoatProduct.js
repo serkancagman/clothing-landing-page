@@ -1,15 +1,11 @@
 import React, { useState, useEffect } from "react";
-import WomenCoatApi from "../Api/WomenApiCoat";
+import WomanCoatA from 'Api/womanproduct.json'
 
 export default function NewWomanCoats() {
   const [Products, setProducts] = useState([]);
 
   useEffect(() => {
-    WomenCoatApi()
-      .get("/WomanCoat")
-      .then((response) => {
-        setProducts(response.data);
-      });
+    setProducts(WomanCoatA.WomanCoat)
   }, []);
 
   return (

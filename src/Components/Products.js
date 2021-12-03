@@ -5,8 +5,8 @@ export default function NewSeason() {
   return (
     <section>
       <div className="container-lg bg-light">
-        <h2 className="p-3 text-center season-header">New Seasons Woman</h2>
-        <h3 className="p-3 text-start">Woman Coats</h3>
+        <h2 className="p-3 text-center season-header">New Season</h2>
+        <h3 className="p-3 text-start">Man Sweatshirts</h3>
         <NewWomanCoats />
         <h3 className="p-3 text-start">Woman Sweatshirts</h3>
         <NewWomanSweats />

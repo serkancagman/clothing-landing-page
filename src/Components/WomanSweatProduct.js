@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
+import WomanSweatJson from 'Api/womansweatproduct.json'
 
 export default function NewWomanSweats() {
   const [womanSweat, setWomanSweat] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:3600/WomanSweat").then((response) => {
-      setWomanSweat(response.data);
-    });
-  }, []);
+    
+    setWomanSweat(WomanSweatJson.WomanSweat)
+
+  }, [])
 
   return (
     <div className="row flex-wrap p-3">
